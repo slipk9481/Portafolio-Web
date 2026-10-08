@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Estudiantil - UTL</title>
-    <!-- Bootstrap 5.3 CSS via CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="pt-5 mt-4" data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="60" tabindex="0">
 
-    <!-- 1. BARRA DE NAVEGACIÓN -->
     <header>
         <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <section class="container">
@@ -40,12 +38,10 @@
     </header>
 
     <main>
-        <!-- 2. HERO SECTION CON CARRUSEL (3 Imágenes, sin texto superpuesto) -->
         <section id="inicio" class="container mt-4 pt-3">
             <h1 class="mb-3">Desarrollo de Software Multiplataforma</h1>
             
             <figure id="heroCarousel" class="carousel slide border border-secondary m-0" data-bs-ride="carousel">
-                <!-- Indicadores actualizados para 3 imágenes -->
                 <section class="carousel-indicators">
                     <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -53,149 +49,13 @@
                 </section>
                 
                 <section class="carousel-inner">
-                    <!-- Imagen 1 limpia (Código) -->
                     <article class="carousel-item active">
                         <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1200&h=500&auto=format&fit=crop" class="d-block w-100 object-fit-cover" alt="Código">
                     </article>
                     
-                    <!-- Imagen 2 limpia (Redes) -->
                     <article class="carousel-item">
                         <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=1200&h=500&auto=format&fit=crop" class="d-block w-100 object-fit-cover" alt="Redes">
                     </article>
 
-                    <!-- Imagen 3 limpia (Diseño UI/UX) -->
                     <article class="carousel-item">
-                        <img src="https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?q=80&w=1200&h=500&auto=format&fit=crop" class="d-block w-100 object-fit-cover" alt="Diseño UI">
-                    </article>
-                </section>
-                
-                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Siguiente</span>
-                </button>
-            </figure>
-        </section>
-
-        <!-- SECCIÓN DE HABILIDADES -->
-        <section id="habilidades" class="container py-5">
-            <header class="row mb-4 text-center">
-                <section class="col-12 border-bottom border-secondary pb-2">
-                    <h2 class="text-primary">Mis Habilidades</h2>
-                </section>
-            </header>
-            <section class="row g-3 text-center">
-                <article class="col-md-4">
-                    <section class="p-3 border border-secondary rounded-0 bg-white h-100">
-                        <h4 class="h5 text-dark">Bases de Datos</h4>
-                        <p class="m-0 small text-secondary">Creación de diagramas entidad-relación, diccionarios de datos y consultas SQL.</p>
-                    </section>
-                </article>
-                <article class="col-md-4">
-                    <section class="p-3 border border-secondary rounded-0 bg-white h-100">
-                        <h4 class="h5 text-dark">Redes (Cisco)</h4>
-                        <p class="m-0 small text-secondary">Manejo de Packet Tracer, VLANs, EtherChannel y administración Linux.</p>
-                    </section>
-                </article>
-                <article class="col-md-4">
-                    <section class="p-3 border border-secondary rounded-0 bg-white h-100">
-                        <h4 class="h5 text-dark">Diseño y UI</h4>
-                        <p class="m-0 small text-secondary">Prototipado en Figma y maquetado de interfaces web.</p>
-                    </section>
-                </article>
-            </section>
-        </section>
-
-        <!-- 3. CATÁLOGO DE PROYECTOS -->
-        <section id="proyectos" class="bg-light py-5 border-top border-secondary">
-            <section class="container">
-                <h2 class="mb-4 text-center">Proyectos Universitarios</h2>
-                <section class="row g-4">
-                    
-                    <!-- Tarjeta 1 -->
-                    <article class="col-12 col-md-6 col-lg-4">
-                        <figure class="card rounded-0 border-secondary h-100 m-0 bg-white">
-                            <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=600&h=400&auto=format&fit=crop" class="card-img-top rounded-0 border-bottom border-secondary" alt="AutoStock">
-                            <figcaption class="card-body d-flex flex-column">
-                                <h5 class="card-title text-dark">Segunda Vuelta</h5>
-                                <p class="card-text small text-secondary">Sistema de control de inventario para piezas de autos reutilizadas (AutoStock).</p>
-                                <a href="#" class="btn btn-primary rounded-0 mt-auto">Revisar proyecto</a>
-                            </figcaption>
-                        </figure>
-                    </article>
-
-                    <!-- Tarjeta 2 -->
-                    <article class="col-12 col-md-6 col-lg-4">
-                        <figure class="card rounded-0 border-secondary h-100 m-0 bg-white">
-                            <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=600&h=400&auto=format&fit=crop" class="card-img-top rounded-0 border-bottom border-secondary" alt="El Gato Panzon">
-                            <figcaption class="card-body d-flex flex-column">
-                                <h5 class="card-title text-dark">El Gato Panzón</h5>
-                                <p class="card-text small text-secondary">Requerimientos de software y gestión operativa para un restaurante.</p>
-                                <a href="#" class="btn btn-primary rounded-0 mt-auto">Revisar proyecto</a>
-                            </figcaption>
-                        </figure>
-                    </article>
-
-                    <!-- Tarjeta 3 -->
-                    <article class="col-12 col-md-6 col-lg-4">
-                        <figure class="card rounded-0 border-secondary h-100 m-0 bg-white">
-                            <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=600&h=400&auto=format&fit=crop" class="card-img-top rounded-0 border-bottom border-secondary" alt="Game API">
-                            <figcaption class="card-body d-flex flex-column">
-                                <h5 class="card-title text-dark">Biblioteca Gaming</h5>
-                                <p class="card-text small text-secondary">App móvil conectada a la API de RAWG creada en Figma para organizar videojuegos.</p>
-                                <a href="#" class="btn btn-primary rounded-0 mt-auto">Revisar proyecto</a>
-                            </figcaption>
-                        </figure>
-                    </article>
-
-                </section>
-            </section>
-        </section>
-    </main>
-
-    <!-- FOOTER OSCURO -->
-    <footer class="bg-dark text-white text-center py-4 mt-auto">
-        <section class="container">
-            <p class="m-0">Portafolio Universitario - Desarrollo de Software Multiplataforma</p>
-        </section>
-    </footer>
-
-    <!-- 4. MODAL DE CONTACTO -->
-    <aside class="modal fade" id="contactoModal" tabindex="-1" aria-labelledby="contactoModalLabel" aria-hidden="true">
-        <section class="modal-dialog">
-            <article class="modal-content rounded-0 border-secondary">
-                <header class="modal-header bg-primary text-white rounded-0">
-                    <h5 class="modal-title" id="contactoModalLabel">Mándame un mensaje</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-                </header>
-                <section class="modal-body">
-                    <form>
-                        <p class="mb-3">
-                            <label for="nombre" class="form-label text-dark">Tu nombre</label>
-                            <input type="text" class="form-control rounded-0" id="nombre">
-                        </p>
-                        <p class="mb-3">
-                            <label for="email" class="form-label text-dark">Correo</label>
-                            <input type="email" class="form-control rounded-0" id="email">
-                        </p>
-                        <p class="mb-3">
-                            <label for="mensaje" class="form-label text-dark">Mensaje</label>
-                            <textarea class="form-control rounded-0" id="mensaje" rows="3"></textarea>
-                        </p>
-                    </form>
-                </section>
-                <footer class="modal-footer bg-light">
-                    <button type="button" class="btn btn-secondary rounded-0" data-bs-dismiss="modal">Cerrar</button>
-                    <button type="button" class="btn btn-primary rounded-0">Enviar</button>
-                </footer>
-            </article>
-        </section>
-    </aside>
-
-    <!-- Bootstrap 5 JS Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+                        <img src="
