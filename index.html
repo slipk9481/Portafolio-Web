@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página web</title>
+    <style>
+        body {
+            background-color: #04101E;
+            color: #D1D6E0; 
+            font-family: "Noto Sans", sans-serif;
+            font-weight: 100;
+            font-size: 15px;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #131821;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #546244;
+        }
+
+        header h1 {
+            color: #E5A93C;
+            margin: 0;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: center; 
+            gap: 30px; 
+            padding: 40px 20px;
+        }
+
+        .tarjeta {
+            background-color: #181E29;
+            border: 1px solid #546244;
+            padding: 20px;
+            width: 28%; 
+            min-width: 250px; 
+        }
+
+        .tarjeta h2 {
+            color: #E5A93C;
+            margin-top: 0;
+            border-bottom: 1px double #546244;
+            padding-bottom: 10px;
+        }
+
+        .tarjeta a {
+            color: #00E5FF;
+            text-decoration: none;
+        }
+        
+        .tarjeta a:hover {
+            text-decoration: underline;
+        }
+
+        ol { 
+            margin: 0; 
+            padding: 0; 
+            padding-left: 20px; 
+        }
+
+        li { 
+            padding: 10px 0; 
+            list-style: square; 
+        }
+        
+        footer { 
+            padding: 20px; 
+            background-color: #05070A; 
+            color: #D1D6E0; 
+            text-align: center; 
+            margin-top: 40px; 
+            border-top: 1px solid #546244;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenida a mi página maestra</h1>
+    </header>
+
+    <main>
+        <article class="tarjeta">
+            <h2>Bienvenida</h2>
+            <p>Esta página es para la escuela y materia de Desarrollo web.</p>
+        </article>
+
+        <article class="tarjeta">
+            <h2>Unidad 1</h2>
+            <ol>
+                <li><a href="Puntuacion-1/index.html">Puntuación 1</a></li>
+                <li><a href="Practica-3/index.html">Práctica 3</a></li>
+                <li><a href="Curriculum/index.html">Mi Currículum</a></li>
+            </ol>
+        </article>
+
+        <article class="tarjeta">
+            <h2>Herramientas</h2>
+            <p>Estas son algunas de las herramientas que utilizo para el desarrollo web.</p>
+        </article>
+    </main>
+
+    <footer>
+        Desarrollo por: Roberto Mares
+    </footer>
+
+</body>
+</html>
