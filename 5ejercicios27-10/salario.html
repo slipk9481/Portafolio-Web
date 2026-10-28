@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 2 - Salarios</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            margin-bottom: 15px;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 5px 10px;
+            text-align: center;
+        }
+        .verde {
+            background-color: #a8f0a8;
+        }
+        button {
+            margin-top: 10px;
+            padding: 5px 12px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h3>Ejercicio 2 - Calculo de Salario</h3>
+
+    <!-- Tabla con los valores del proyector -->
+    <table>
+        <tr>
+            <th></th>
+            <th>Newbe</th>
+            <th>Jr</th>
+            <th>Sr</th>
+        </tr>
+        <tr>
+            <td>Diseñador</td>
+            <td>120</td>
+            <td>240</td>
+            <td>210</td>
+        </tr>
+        <tr>
+            <td>Programador</td>
+            <td>240</td>
+            <td>280</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td>Lider</td>
+            <td>400</td>
+            <td>600</td>
+            <td>3000</td>
+        </tr>
+    </table>
+
+    <!-- Selección con option value=0, 1, 2 como puso el profe -->
+    Puesto: 
+    <select id="puesto" class="verde">
+        <option value="0">Diseñador</option>
+        <option value="1">Programador</option>
+        <option value="2">Lider</option>
+    </select>
+    <br><br>
+
+    Nivel: 
+    <select id="nivel" class="verde">
+        <option value="0">Newbe</option>
+        <option value="1">Jr</option>
+        <option value="2">Sr</option>
+    </select>
+    <br><br>
+
+    Hrs Trabaja: 
+    <input type="text" id="horas" class="verde">
+    <br>
+
+    <button onclick="calcular()">Calcular Total</button>
+    <br><br>
+
+    <div>Total: <b id="impTotal"></b></div>
+
+    <br><hr>
+    <a href="indice.html">Regresar a la Agenda</a>
+
+    <script src="js/sal.js"></script>
+</body>
+</html>

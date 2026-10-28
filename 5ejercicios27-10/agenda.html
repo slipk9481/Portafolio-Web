@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 5 - Agenda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        td, th {
+            border: 1px solid #999;
+            padding: 6px 12px;
+            text-align: left;
+        }
+        .azul {
+            background-color: #72d6eb;
+            font-weight: bold;
+        }
+        button {
+            margin-top: 10px;
+            padding: 5px 12px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body onload="iniciarAgenda()">
+
+    <h3>Ejercicio 5 - Agenda Semanal</h3>
+
+    Dia: 
+    <select id="dia">
+        <option value="0">lunes</option>
+        <option value="1">martes</option>
+        <option value="2">miercoles</option>
+        <option value="3">jueves</option>
+        <option value="4">viernes</option>
+        <option value="5">sabado</option>
+        <option value="6">domingo</option>
+    </select>
+    <br><br>
+
+    Hora: <input type="text" id="hora">
+    <br><br>
+
+    Evento: <input type="text" id="evento">
+    <br><br>
+
+    descripcion: <input type="text" id="desc">
+    <br><br>
+
+    <button onclick="guardarAgenda()">Agregar a la Agenda</button>
+
+    <div id="impAgenda"></div>
+
+    <br><hr>
+    <a href="indice.html">Regresar al Menu</a>
+
+    <script src="js/agenda.js"></script>
+</body>
+</html>
