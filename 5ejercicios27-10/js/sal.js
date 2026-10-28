@@ -9,12 +9,12 @@ function calcular(){
     sueldos[0][1]=240;
     sueldos[0][2]=210;
 
-    // Programador (Newbe, Jr, Sr)
+    // Programador
     sueldos[1][0]=240;
     sueldos[1][1]=280;
     sueldos[1][2]=300;
 
-    //Lider (Newbe, Jr, Sr)
+    //Lider
     sueldos[2][0]=400;
     sueldos[2][1]=600;
     sueldos[2][2]=3000;
