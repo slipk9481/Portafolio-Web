@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Venta de Boletos</title>
+</head>
+<body>
+    <h2>Venta de Boletos para Concierto</h2>
+    <div>
+        <label for="nombre">Nombre Completo:</label><br>
+        <input type="text" id="nombre">
+    </div><br>
+    <div>
+        <label for="rfc">RFC:</label><br>
+        <input type="text" id="rfc">
+    </div><br>
+    <div>
+        <label for="artista">Selecciona el Artista:</label><br>
+        <select id="artista">
+            <option value="1">Bad Bunny</option>
+            <option value="2">Tito Doble P</option>
+            <option value="3">Fuerza Regida</option>
+        </select>
+    </div>
+    <hr>
+    <div>
+        <label for="numPersonas">Número Total de Personas:</label><br>
+        <input type="number" id="numPersonas" min="0">
+    </div><br>
+    <div>
+        <label for="numAdultos">Número de Adultos:</label><br>
+        <input type="number" id="numAdultos" min="0">
+    </div><br>
+    <div>
+        <label for="numNinos">Número de Niños:</label><br>
+        <input type="number" id="numNinos" min="0">
+    </div><br>
+    <button id="btnCalcular">Asignar Zona y Calcular</button>
+    <div id="mensajeError"></div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body {
+    background-color: #7a9fee;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    max-width: 400px;
+}
+
+.campo {
+    margin-bottom: 12px;
+}
+
+input, select {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #0b376a;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+#mensajeError {
+    margin-top: 10px;
+}
+
+.tarjeta {
+    border: 1px solid #000000;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #90b1f9;
+}
+
+a {
+    display: inline-block;
+    margin-top: 15px;
+}
